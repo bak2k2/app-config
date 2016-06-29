@@ -1,15 +1,15 @@
 security:
   basic:
-    enabled: false # turn of securing our application endpoints
+    enabled: false
 
 management:
   security:
-    enabled: false # turn of securing the actuator endpoints
+    enabled: false
 
-logging:
+logging: # <----New sections below
   level:
-  	io:
-     pivotal: DEBUG
+    io:
+      pivotal: DEBUG
 
 greeting:
   displayFortune: false
